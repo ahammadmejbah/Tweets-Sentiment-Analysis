@@ -10,8 +10,8 @@
       <li><code>Vectorizing</code> our dataset</li>
       <li><code>Building and evaluating</code> a model</li>
       <li><code>Comparing</code> models</li>
-      <li>Examining a model for </code>further insight<code></li>
-      <li>Practicing this workflow on </code>another dataset<code></li>
+      <li>Examining a model for <code>further insight</code></li>
+      <li>Practicing this workflow on <code>another dataset</code></li>
       <li>Tuning the <code>vectorizer (discussion)</code></li>
 <ol>
 ---
