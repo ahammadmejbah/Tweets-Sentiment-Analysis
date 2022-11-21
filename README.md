@@ -23,12 +23,12 @@ Throughout this notebook, we will mention an elevated overview of the fundamenta
 
  From the [scikit-learn documentation](http://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction):
 
-> In this scheme, features and samples are defined as follows:
+<h3>Features and samples are defined as follows:</h3>
 <ol>
 <li>Each individual token occurrence frequency (normalized or not) is treated as a <code>feature</code>.</li>
 <li>The vector of all the token frequencies for a given document is considered a multivariate <code>sample</code>.</li>
 </ol>
 
-A <code>corpus of documents</code> can thus be represented by a matrix with <code>one row per document</code>and <code> one column per token</code> (e.g. word) occurring in the corpus.
+A <b><code>corpus of documents</code></b> can thus be represented by a matrix with <code>one row per document</code>and <b><code> one column per token</code></b> (e.g. word) occurring in the corpus.
 
 We call <b><code>vectorization</code></b>  the general process of turning a collection of text documents into numerical feature vectors. This specific strategy (tokenization, counting and normalization) is called the <b><code>Bag of Words</code></b> or <b><code>Bag of n-grams</code></b> representation. Documents are described by word occurrences while completely ignoring the relative position information of the words in the document.
