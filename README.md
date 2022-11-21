@@ -1,19 +1,19 @@
-# 📚 NLP (Natural Language Processing) with Python
+# 📚 Natural-Language-Processing-with-Python-For-Tweets-Sentiment-Analysis
 
 ***
 
-
 # 📝 Agenda
 
-> 1. Representing text as numerical data
-> 2. Reading a text-based dataset into pandas
-> 3. Vectorizing our dataset
-> 4. Building and evaluating a model
-> 5. Comparing models
-> 6. Examining a model for further insight
-> 7. Practicing this workflow on another dataset
-> 8. Tuning the vectorizer (discussion)
-
+<ol>
+      <li>Representing <code>text as numerical data</code><li>
+      <li>Reading a <code>text-based dataset</code> into pandas<li>
+      <li><code>Vectorizing</code> our dataset<li>
+      <li><code>Building and evaluating</code> a model<li>
+      <li><code>Comparing<c/ode> models<li>
+      <li>Examining a model for </code>further insight<code><li>
+      <li>Practicing this workflow on </code>another dataset<code><li>
+      <li>Tuning the <code>vectorizer (discussion)</code><li>
+<ol>
 ---
 
 # 📌 Notebook Goals
