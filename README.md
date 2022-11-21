@@ -48,3 +48,31 @@ We call <b><code>vectorization</code></b>  the general process of turning a coll
       <li>Let's create a function that will process the string in the message column, then we can just use **apply()** in pandas do process all the text in the DataFrame.</li>
 
       <li>First removing punctuation. We can just take advantage of Python's built-in **string** library to get a quick list of all the possible punctuation</li>
+      
+ </ol>
+ 
+ 
+ 
+ ``` python
+ 
+import string
+from nltk.corpus import stopwords
+
+def text_process(mess):
+    """
+    Takes in a string of text, then performs the following:
+    1. Remove all punctuation
+    2. Remove all stopwords
+    3. Returns a list of the cleaned text
+    """
+    STOPWORDS = stopwords.words('english') + ['u', 'ü', 'ur', '4', '2', 'im', 'dont', 'doin', 'ure']
+    # Check characters to see if they are in punctuation
+    nopunc = [char for char in mess if char not in string.punctuation]
+
+    # Join the characters again to form the string.
+    nopunc = ''.join(nopunc)
+    
+    # Now just remove any stopwords
+    return ' '.join([word for word in nopunc.split() if word.lower() not in STOPWORDS])
+ 
+ ```
