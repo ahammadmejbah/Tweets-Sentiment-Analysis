@@ -18,4 +18,4 @@
 
 # Working Goals:
       
-      Throughout this notebook, we will mention an elevated overview of the fundamentals of natural language processing, which essentially entails combining machine learning techniques with text and using math and statistics to get that text in a format that the machine learning algorithms can understand. This notebook will be divided into three sections: the first section will provide an introduction to natural language processing, the second section will discuss natural language processing in more detail, and the third section will.
+Throughout this notebook, we will mention an elevated overview of the fundamentals of natural language processing, which essentially entails combining machine learning techniques with text and using math and statistics to get that text in a format that the machine learning algorithms can understand. This notebook will be divided into three sections: the first section will provide an introduction to natural language processing, the second section will discuss natural language processing in more detail, and the third section will.
