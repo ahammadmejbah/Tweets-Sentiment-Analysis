@@ -19,3 +19,16 @@
 # Working Goals:
       
 Throughout this notebook, we will mention an elevated overview of the fundamentals of natural language processing, which essentially entails combining machine learning techniques with text and using math and statistics to get that text in a format that the machine learning algorithms can understand. This notebook will be divided into three sections: the first section will provide an introduction to natural language processing, the second section will discuss natural language processing in more detail, and the third section will.
+
+
+ From the [scikit-learn documentation](http://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction):
+
+> In this scheme, features and samples are defined as follows:
+<ol>
+<li>Each individual token occurrence frequency (normalized or not) is treated as a <code>feature</code>.</li>
+<li>The vector of all the token frequencies for a given document is considered a multivariate <code>sample</code>.</li>
+</ol>
+
+A <code>corpus of documents</code> can thus be represented by a matrix with <code>one row per document</code>and <code> one column per token</code> (e.g. word) occurring in the corpus.
+
+We call <b><code>vectorization</code></b>  the general process of turning a collection of text documents into numerical feature vectors. This specific strategy (tokenization, counting and normalization) is called the <b><code>Bag of Words</code></b> or <b><code>Bag of n-grams</code></b> representation. Documents are described by word occurrences while completely ignoring the relative position information of the words in the document.
