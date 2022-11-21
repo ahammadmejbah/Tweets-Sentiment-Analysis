@@ -13,8 +13,8 @@
       <li>Examining a model for <code>further insight</code></li>
       <li>Practicing this workflow on <code>another dataset</code></li>
       <li>Tuning the <code>vectorizer (discussion)</code></li>
-<ol>
----
+</ol>
+
 
 # Working Goals:
       
