@@ -32,3 +32,19 @@ Throughout this notebook, we will mention an elevated overview of the fundamenta
 A <b><code>corpus of documents</code></b> can thus be represented by a matrix with <code>one row per document</code>and <b><code> one column per token</code></b> (e.g. word) occurring in the corpus.
 
 We call <b><code>vectorization</code></b>  the general process of turning a collection of text documents into numerical feature vectors. This specific strategy (tokenization, counting and normalization) is called the <b><code>Bag of Words</code></b> or <b><code>Bag of n-grams</code></b> representation. Documents are described by word occurrences while completely ignoring the relative position information of the words in the document.
+
+
+
+# Text Pre-processing approaches:
+
+<ol>
+      <li>Our main issue with our data is that it is all in text format (strings). The classification algorithms that we usally use need some sort of numerical feature vector in order to perform the classification task. There are actually many methods to convert a corpus to a vector format. The simplest is the `bag-of-words` approach, where each unique word in a text will be represented by one number.</li>
+
+
+      <li>In this section we'll convert the raw messages (sequence of characters) into vectors (sequences of numbers).</li>
+
+      <li>As a first step, let's write a function that will split a message into its individual words and return a list. We'll also remove very common words, ('the', 'a', etc..). To do this we will take advantage of the `NLTK` library. It's pretty much the standard library in Python for processing text and has a lot of useful features. We'll only use some of the basic ones here.</li>
+
+      <li>Let's create a function that will process the string in the message column, then we can just use **apply()** in pandas do process all the text in the DataFrame.</li>
+
+      <li>First removing punctuation. We can just take advantage of Python's built-in **string** library to get a quick list of all the possible punctuation</li>
